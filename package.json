@@ -1,0 +1,38 @@
+{
+  "name": "type-safe-communication-backend",
+  "version": "1.0.0",
+  "description": "Type safe communication",
+  "main": "src/server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RFelixRocha/type-safe-communication-backend.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "Raimundo Felix da Rocha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RFelixRocha/type-safe-communication-backend/issues"
+  },
+  "homepage": "https://github.com/RFelixRocha/type-safe-communication-backend#readme",
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "@fastify/swagger": "^9.4.0",
+    "@fastify/swagger-ui": "^5.1.0",
+    "fastify": "^5.1.0",
+    "fastify-type-provider-zod": "^4.0.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
